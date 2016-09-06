@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FO1-fm-raL" userLabel="Preview">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ut1-DY-XEv" userLabel="Overlay">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gni-fI-msU">
+                                <rect key="frame" x="527" y="20" width="51" height="31"/>
+                                <color key="onTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="switchCamera:" destination="BYZ-38-t0r" eventType="valueChanged" id="2qP-if-PIn"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="FO1-fm-raL" secondAttribute="trailing" id="27M-bz-JO0"/>
+                            <constraint firstItem="ut1-DY-XEv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5kq-0v-Jde"/>
+                            <constraint firstAttribute="trailing" secondItem="ut1-DY-XEv" secondAttribute="trailing" id="Oi4-A6-pJA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gni-fI-msU" secondAttribute="trailing" constant="4" id="bHt-MP-nzH"/>
+                            <constraint firstItem="ut1-DY-XEv" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dX6-ui-wN2"/>
+                            <constraint firstAttribute="bottom" secondItem="FO1-fm-raL" secondAttribute="bottom" id="hcy-M9-uxE"/>
+                            <constraint firstItem="gni-fI-msU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="20" id="o9s-m6-NyW"/>
+                            <constraint firstAttribute="bottom" secondItem="ut1-DY-XEv" secondAttribute="bottom" id="om8-2Q-Q1T"/>
+                            <constraint firstItem="FO1-fm-raL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qot-w6-ve9"/>
+                            <constraint firstItem="FO1-fm-raL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="rqj-t8-NzU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cameraSwitch" destination="gni-fI-msU" id="4x2-7l-TnG"/>
+                        <outlet property="overlay" destination="ut1-DY-XEv" id="u2X-5K-DiN"/>
+                        <outlet property="placeHolder" destination="FO1-fm-raL" id="Dl3-wQ-LYj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
