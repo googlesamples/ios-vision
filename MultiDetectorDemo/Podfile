@@ -1,0 +1,5 @@
+target "MultiDetector" do
+  pod 'GoogleMobileVision/FaceDetector'
+  pod 'GoogleMobileVision/BarcodeDetector'
+  pod 'GoogleMobileVision/MVDataOutput'
+end

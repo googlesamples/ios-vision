@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="HOA-x0-eS4">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Camera-->
+        <scene sceneID="IpF-0W-XNu">
+            <objects>
+                <viewController id="KRo-mj-2Px" customClass="CameraViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qcv-iM-JEL"/>
+                        <viewControllerLayoutGuide type="bottom" id="F7K-cN-J84"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zDr-3k-sgr">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="APv-oL-V7Z" userLabel="placeholder">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Byc-oZ-Hai" userLabel="overlay">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Byc-oZ-Hai" firstAttribute="leading" secondItem="zDr-3k-sgr" secondAttribute="leadingMargin" id="6BM-H2-LpB"/>
+                            <constraint firstAttribute="trailing" secondItem="Byc-oZ-Hai" secondAttribute="trailing" id="9nN-1K-wDh"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="APv-oL-V7Z" secondAttribute="bottom" id="BO5-8r-U7E"/>
+                            <constraint firstItem="APv-oL-V7Z" firstAttribute="leading" secondItem="zDr-3k-sgr" secondAttribute="leading" id="Bg1-NK-LwX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="APv-oL-V7Z" secondAttribute="trailing" id="Cjo-Vd-U4O"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Byc-oZ-Hai" secondAttribute="bottom" id="Gzk-OO-jSc"/>
+                            <constraint firstItem="Byc-oZ-Hai" firstAttribute="leading" secondItem="zDr-3k-sgr" secondAttribute="leading" id="Uyv-u4-nrB"/>
+                            <constraint firstAttribute="trailing" secondItem="APv-oL-V7Z" secondAttribute="trailing" id="W6X-Tt-sSi"/>
+                            <constraint firstItem="APv-oL-V7Z" firstAttribute="top" secondItem="zDr-3k-sgr" secondAttribute="topMargin" id="XUv-Vl-fLh"/>
+                            <constraint firstItem="Byc-oZ-Hai" firstAttribute="top" secondItem="zDr-3k-sgr" secondAttribute="topMargin" id="rCf-BG-3Wt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Byc-oZ-Hai" secondAttribute="trailing" id="rbh-vw-vHZ"/>
+                            <constraint firstItem="APv-oL-V7Z" firstAttribute="leading" secondItem="zDr-3k-sgr" secondAttribute="leadingMargin" id="uFW-vG-rVT"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Cjo-Vd-U4O"/>
+                                <exclude reference="uFW-vG-rVT"/>
+                                <exclude reference="6BM-H2-LpB"/>
+                                <exclude reference="rbh-vw-vHZ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Camera" image="Camera" id="Usm-r7-jfZ"/>
+                    <connections>
+                        <outlet property="overlayView" destination="Byc-oZ-Hai" id="qb2-dN-GGL"/>
+                        <outlet property="placeHolderView" destination="APv-oL-V7Z" id="383-yK-ANr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TWR-uI-nNQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Photo-->
+        <scene sceneID="JoJ-Jy-zgP">
+            <objects>
+                <viewController id="NDh-Z3-iqT" customClass="PhotoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UpB-yV-Q4O"/>
+                        <viewControllerLayoutGuide type="bottom" id="dch-CL-cZD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uiv-vf-oCc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="multi_values.png" translatesAutoresizingMaskIntoConstraints="NO" id="0vB-QF-ExZ">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mLq-4M-hyl" userLabel="overlay">
+                                <rect key="frame" x="0.0" y="0.0" width="580" height="600"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pz9-is-V2C">
+                                <rect key="frame" x="20" y="491" width="560" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="FTH-xP-naD"/>
+                                </constraints>
+                                <state key="normal" title="Run Barcode Detection"/>
+                                <connections>
+                                    <action selector="detectBarcodeButtonTapped:" destination="NDh-Z3-iqT" eventType="touchUpInside" id="Bgx-3l-LFr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mLq-4M-hyl" firstAttribute="top" secondItem="uiv-vf-oCc" secondAttribute="topMargin" id="1nC-si-TOw"/>
+                            <constraint firstItem="0vB-QF-ExZ" firstAttribute="leading" secondItem="uiv-vf-oCc" secondAttribute="leading" id="T8E-E0-Dko"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mLq-4M-hyl" secondAttribute="trailing" id="VcR-5h-QC4"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="mLq-4M-hyl" secondAttribute="bottom" id="WEg-lE-eAQ"/>
+                            <constraint firstAttribute="bottom" secondItem="0vB-QF-ExZ" secondAttribute="bottom" id="aQt-Ny-XHR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pz9-is-V2C" secondAttribute="trailing" id="iS9-Kp-Jkw"/>
+                            <constraint firstItem="pz9-is-V2C" firstAttribute="leading" secondItem="uiv-vf-oCc" secondAttribute="leadingMargin" id="mIc-aW-xFS"/>
+                            <constraint firstAttribute="trailing" secondItem="0vB-QF-ExZ" secondAttribute="trailing" id="pVW-r5-Z0m"/>
+                            <constraint firstItem="dch-CL-cZD" firstAttribute="top" secondItem="pz9-is-V2C" secondAttribute="bottom" id="vZu-jE-ZNh"/>
+                            <constraint firstItem="0vB-QF-ExZ" firstAttribute="top" secondItem="uiv-vf-oCc" secondAttribute="top" id="xyN-l5-M0Q"/>
+                            <constraint firstItem="mLq-4M-hyl" firstAttribute="leading" secondItem="uiv-vf-oCc" secondAttribute="leading" id="y0Q-Ue-it2"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Photo" image="Photo" id="L5G-wJ-TDB"/>
+                    <connections>
+                        <outlet property="imageView" destination="0vB-QF-ExZ" id="eDC-Xf-vas"/>
+                        <outlet property="overlayView" destination="mLq-4M-hyl" id="cQi-sT-GHY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fa7-Tq-3Qo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="286" y="1233"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="b4M-w0-ay8">
+            <objects>
+                <tabBarController id="HOA-x0-eS4" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="UCz-ac-dZE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="NDh-Z3-iqT" kind="relationship" relationship="viewControllers" id="QBx-a0-Qe7"/>
+                        <segue destination="KRo-mj-2Px" kind="relationship" relationship="viewControllers" id="sWI-i8-bUg"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lsw-FK-Cc6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Camera" width="36" height="36"/>
+        <image name="Photo" width="36" height="36"/>
+        <image name="multi_values.png" width="327" height="355"/>
+    </resources>
+</document>

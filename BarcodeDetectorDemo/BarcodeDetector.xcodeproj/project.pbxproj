@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30E4A2B8DA39265FE6F1EC47 /* libPods-BarcodeDetector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10602EC584EC68EA39C4C05F /* libPods-BarcodeDetector.a */; };
+		6F2E2FFA1D91F36D0023293D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2E2FF91D91F36D0023293D /* main.m */; };
+		6F2E2FFD1D91F36D0023293D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2E2FFC1D91F36D0023293D /* AppDelegate.m */; };
+		6F2E30031D91F36D0023293D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2E30011D91F36D0023293D /* Main.storyboard */; };
+		6F2E30051D91F36D0023293D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F2E30041D91F36D0023293D /* Assets.xcassets */; };
+		6F2E30081D91F36D0023293D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2E30061D91F36D0023293D /* LaunchScreen.storyboard */; };
+		6F2E30311D9306A60023293D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F2E30301D9306A60023293D /* Images.xcassets */; };
+		6F2E30341D9307260023293D /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2E30331D9307260023293D /* PhotoViewController.m */; };
+		6F2E30371D93074D0023293D /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2E30361D93074D0023293D /* CameraViewController.m */; };
+		6F2E303A1D9309DA0023293D /* DrawingUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2E30391D9309DA0023293D /* DrawingUtility.m */; };
+		6FC9D0CD1DE6788600334B9C /* multi_values.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC9D0CC1DE6788600334B9C /* multi_values.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10602EC584EC68EA39C4C05F /* libPods-BarcodeDetector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BarcodeDetector.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8BE6494D56281A0612166A /* Pods-BarcodeDetector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarcodeDetector.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BarcodeDetector/Pods-BarcodeDetector.debug.xcconfig"; sourceTree = "<group>"; };
+		6F2E2FF51D91F36D0023293D /* BarcodeDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarcodeDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F2E2FF91D91F36D0023293D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F2E2FFB1D91F36D0023293D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F2E2FFC1D91F36D0023293D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F2E30021D91F36D0023293D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F2E30041D91F36D0023293D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F2E30071D91F36D0023293D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F2E30091D91F36D0023293D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F2E30301D9306A60023293D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6F2E30321D9307260023293D /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		6F2E30331D9307260023293D /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		6F2E30351D93074D0023293D /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		6F2E30361D93074D0023293D /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		6F2E30381D9309DA0023293D /* DrawingUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingUtility.h; sourceTree = "<group>"; };
+		6F2E30391D9309DA0023293D /* DrawingUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingUtility.m; sourceTree = "<group>"; };
+		6FC9D0CC1DE6788600334B9C /* multi_values.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = multi_values.png; sourceTree = "<group>"; };
+		8760AA21EACF7DA95A2D8F94 /* Pods-BarcodeDetector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarcodeDetector.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarcodeDetector/Pods-BarcodeDetector.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F2E2FF21D91F36D0023293D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E4A2B8DA39265FE6F1EC47 /* libPods-BarcodeDetector.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F2E2FEC1D91F36D0023293D = {
+			isa = PBXGroup;
+			children = (
+				6F2E2FF71D91F36D0023293D /* BarcodeDetector */,
+				6F2E2FF61D91F36D0023293D /* Products */,
+				E0638835891F597253943878 /* Pods */,
+				866113C79A3D338B98DBEC08 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6F2E2FF61D91F36D0023293D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F2E2FF51D91F36D0023293D /* BarcodeDetector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F2E2FF71D91F36D0023293D /* BarcodeDetector */ = {
+			isa = PBXGroup;
+			children = (
+				6F2E30381D9309DA0023293D /* DrawingUtility.h */,
+				6F2E30391D9309DA0023293D /* DrawingUtility.m */,
+				6F2E30351D93074D0023293D /* CameraViewController.h */,
+				6F2E30361D93074D0023293D /* CameraViewController.m */,
+				6F2E30321D9307260023293D /* PhotoViewController.h */,
+				6F2E30331D9307260023293D /* PhotoViewController.m */,
+				6F2E2FFB1D91F36D0023293D /* AppDelegate.h */,
+				6F2E2FFC1D91F36D0023293D /* AppDelegate.m */,
+				6F2E30011D91F36D0023293D /* Main.storyboard */,
+				6F2E30041D91F36D0023293D /* Assets.xcassets */,
+				6F2E30301D9306A60023293D /* Images.xcassets */,
+				6F2E30061D91F36D0023293D /* LaunchScreen.storyboard */,
+				6F2E30091D91F36D0023293D /* Info.plist */,
+				6F2E2FF81D91F36D0023293D /* Supporting Files */,
+			);
+			path = BarcodeDetector;
+			sourceTree = "<group>";
+		};
+		6F2E2FF81D91F36D0023293D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FC9D0CC1DE6788600334B9C /* multi_values.png */,
+				6F2E2FF91D91F36D0023293D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		866113C79A3D338B98DBEC08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10602EC584EC68EA39C4C05F /* libPods-BarcodeDetector.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0638835891F597253943878 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C8BE6494D56281A0612166A /* Pods-BarcodeDetector.debug.xcconfig */,
+				8760AA21EACF7DA95A2D8F94 /* Pods-BarcodeDetector.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F2E2FF41D91F36D0023293D /* BarcodeDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F2E300C1D91F36D0023293D /* Build configuration list for PBXNativeTarget "BarcodeDetector" */;
+			buildPhases = (
+				E3F40FE1B25FCB47A374BAFD /* [CP] Check Pods Manifest.lock */,
+				6F2E2FF11D91F36D0023293D /* Sources */,
+				6F2E2FF21D91F36D0023293D /* Frameworks */,
+				6F2E2FF31D91F36D0023293D /* Resources */,
+				9F376305EB5C9EA3277659B2 /* [CP] Embed Pods Frameworks */,
+				1F395B51D9042A64BD801A26 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarcodeDetector;
+			productName = BarcodeDetector;
+			productReference = 6F2E2FF51D91F36D0023293D /* BarcodeDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F2E2FED1D91F36D0023293D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Google;
+				TargetAttributes = {
+					6F2E2FF41D91F36D0023293D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 6F2E2FF01D91F36D0023293D /* Build configuration list for PBXProject "BarcodeDetector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F2E2FEC1D91F36D0023293D;
+			productRefGroup = 6F2E2FF61D91F36D0023293D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F2E2FF41D91F36D0023293D /* BarcodeDetector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F2E2FF31D91F36D0023293D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2E30081D91F36D0023293D /* LaunchScreen.storyboard in Resources */,
+				6F2E30311D9306A60023293D /* Images.xcassets in Resources */,
+				6FC9D0CD1DE6788600334B9C /* multi_values.png in Resources */,
+				6F2E30051D91F36D0023293D /* Assets.xcassets in Resources */,
+				6F2E30031D91F36D0023293D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F395B51D9042A64BD801A26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarcodeDetector/Pods-BarcodeDetector-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F376305EB5C9EA3277659B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarcodeDetector/Pods-BarcodeDetector-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3F40FE1B25FCB47A374BAFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F2E2FF11D91F36D0023293D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2E303A1D9309DA0023293D /* DrawingUtility.m in Sources */,
+				6F2E30341D9307260023293D /* PhotoViewController.m in Sources */,
+				6F2E30371D93074D0023293D /* CameraViewController.m in Sources */,
+				6F2E2FFD1D91F36D0023293D /* AppDelegate.m in Sources */,
+				6F2E2FFA1D91F36D0023293D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F2E30011D91F36D0023293D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F2E30021D91F36D0023293D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F2E30061D91F36D0023293D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F2E30071D91F36D0023293D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F2E300A1D91F36D0023293D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F2E300B1D91F36D0023293D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F2E300D1D91F36D0023293D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C8BE6494D56281A0612166A /* Pods-BarcodeDetector.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BarcodeDetector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.mobilevision.BarcodeDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F2E300E1D91F36D0023293D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8760AA21EACF7DA95A2D8F94 /* Pods-BarcodeDetector.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BarcodeDetector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.mobilevision.BarcodeDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F2E2FF01D91F36D0023293D /* Build configuration list for PBXProject "BarcodeDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2E300A1D91F36D0023293D /* Debug */,
+				6F2E300B1D91F36D0023293D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F2E300C1D91F36D0023293D /* Build configuration list for PBXNativeTarget "BarcodeDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2E300D1D91F36D0023293D /* Debug */,
+				6F2E300E1D91F36D0023293D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F2E2FED1D91F36D0023293D /* Project object */;
+}
